@@ -48,6 +48,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	private static final String[] PUB_MATCHERS_POST = {
 		"/clientes/**",
+		"/clientes/picture",
 		"/auth/forgot/**"
 	};
 	
